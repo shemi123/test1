@@ -2,37 +2,64 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerdiv{
+  background-color: #198cff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerdiv h2{
+  color: #fff;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.recharts-default-tooltip p{
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.recharts-default-tooltip{
+  padding: 3px!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recharts-default-tooltip ul{
+  font-size: 10px;
 }
+
+.recharts-wrapper Line {
+  stroke: #fff;
+  fill: #fff;
+}
+
+.recharts-wrapper path {
+  stroke: #fff;
+}
+
+.recharts-wrapper circle {
+  stroke: #16113a;
+  fill: #16113a;
+  r: 1
+}
+
+
+.recharts-wrapper svg {
+  padding: 5px;
+}
+
+.recharts-wrapper {
+  width: 100%!important;
+}
+
+.recharts-wrapper text {
+  stroke: #fff;
+  fill: #fff;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.chartdiv {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  padding: 10px!important;
+}
+
